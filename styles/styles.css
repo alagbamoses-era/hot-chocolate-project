@@ -1,0 +1,41 @@
+.container {
+    max-width: 570px;
+    background: linear-gradient( 87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5% );
+    margin: 0 auto;
+    padding: 20px 30px;
+    color: white;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    background: #754b3d;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+}
+.btn:hover {
+    background: white;
+    color: #754b3d;
+}
+    
+.links {
+    color: grey;
+}
