@@ -35,6 +35,7 @@ footer {
 
 .btn {
     display: block;
+    cursor: pointer;
     margin: 20px auto;
     background: #754b3d;
     color: #ffff;
