@@ -6,7 +6,7 @@ function buyChocolate() {
     let brand = prompt(
       "What brand of hot chocolate is available in your area?"
     );
-    let temp = prompt("What is the present temperature of your area?");
+    let temp = prompt("What is the present temperature of your area in °C?");
 
     if (temp < 9) {
       alert(
