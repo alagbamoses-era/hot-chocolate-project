@@ -1,14 +1,25 @@
+body {
+    background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
+}
+
+
 .container {
     max-width: 570px;
     background: linear-gradient( 87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5% );
     margin: 30px auto;
     padding: 20px 30px;
     color: white;
+    border-radius: 5px;
 }
 
+
 h1, h2 {
-    color: white;
     text-align: center;
+}
+
+h2 {
+    border: solid 1px white;
+    padding: 10px 12px;
 }
 
 p {
@@ -33,6 +44,12 @@ footer {
     font-size: 15px;
 }
 
+
+img:hover {
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
 .btn {
     display: block;
     cursor: pointer;
@@ -54,4 +71,30 @@ footer {
     
 .links {
     color: grey;
+}
+
+.theme-button {
+    display: block;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(0, 0, 0) 100.2%);
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.theme-button:hover {
+    background: white;
+    color: black;
+}
+
+.dark {
+    background: black
+}
+
+.dark .container {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.dark a {
+    color: burlywood;
 }

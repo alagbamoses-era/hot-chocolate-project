@@ -1,6 +1,5 @@
 
 
-
 function buyChocolate() {
     let name = prompt("What is your name?");
     let country = prompt("What country do you reside?");
@@ -12,13 +11,28 @@ function buyChocolate() {
     if (temp < 9) {
       alert(
         `Thank you ${name}. You need to take a cup of ${brand}
-          hot chocolate`
+          hot chocolate 😀`
       );
     } else {
       alert(
-        `Thank you ${name}. You don't need to take a cup of ${brand} hot chocolate`
+        `Thank you ${name}. You don't need to take a cup of ${brand} hot chocolate 👋`
       );
     }
   }
+
+  function changeTheme () {
+  let body = document.querySelector("body");
+  if (body.classList.contains("dark")) {
+    body.classList.remove("dark")
+  } else {
+    body.classList.add("dark")
+  }
+  }
+
+
+  let themeButton = document.querySelector(".theme-button");
+
+  themeButton.addEventListener("click", changeTheme)
+
   let buyButton = document.querySelector(".btn");
   buyButton.addEventListener("click", buyChocolate);
