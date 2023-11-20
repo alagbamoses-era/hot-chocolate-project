@@ -1,7 +1,7 @@
 .container {
     max-width: 570px;
     background: linear-gradient( 87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5% );
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 20px 30px;
     color: white;
 }
@@ -11,11 +11,26 @@ h1, h2 {
     text-align: center;
 }
 
+p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 20px 0 10px;
+}
+
 img {
     display: block;
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: #754b3d;
+}
+footer {
+    text-align: center;
+    font-size: 15px;
 }
 
 .btn {
