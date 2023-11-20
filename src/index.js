@@ -8,7 +8,7 @@ function buyChocolate() {
     );
     let temp = prompt("What is the present temperature of your area in °C?");
 
-    if (temp < 9) {
+    if (temp < 13) {
       alert(
         `Thank you ${name}. Kindly get a cup of ${brand}
           hot chocolate for yourself 😀 `
