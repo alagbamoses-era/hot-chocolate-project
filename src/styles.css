@@ -39,6 +39,7 @@ img {
 a {
     text-decoration: none;
     color: #754b3d;
+    font-weight: bold;
 }
 footer {
     text-align: center;
@@ -99,4 +100,5 @@ img:hover {
 
 .dark a {
     color: burlywood;
+    font-weight: bold;
 }

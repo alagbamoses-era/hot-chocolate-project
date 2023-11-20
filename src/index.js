@@ -10,8 +10,8 @@ function buyChocolate() {
 
     if (temp < 9) {
       alert(
-        `Thank you ${name}. You need to take a cup of ${brand}
-          hot chocolate 😀`
+        `Thank you ${name}. Kindly get a cup of ${brand}
+          hot chocolate for yourself 😀 `
       );
     } else {
       alert(
