@@ -71,10 +71,12 @@ img:hover {
 .btn:hover {
     background: white;
     color: #754b3d;
+    
 }
     
 .links {
-    color: beige;
+    color: rgb(239, 205, 9);
+    text-align: center;
 }
 
 .theme-button {
@@ -102,5 +104,17 @@ img:hover {
 
 .dark a {
     color: burlywood;
+    font-weight: bold;
+}
+.social-handles {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-top: 10px;
+    color: rgba(239, 205, 20);
+    font-weight: bold;
+
+}
+.media a, i {
+    color: white;
     font-weight: bold;
 }
