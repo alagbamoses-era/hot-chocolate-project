@@ -114,7 +114,19 @@ img:hover {
     font-weight: bold;
 
 }
+
+.media {
+    margin-right: 50px;
+
+}
 .media a, i {
     color: white;
     font-weight: bold;
+}
+@media (max-width:500px)
+{
+    .social-handles {
+        grid-template-columns: 1fr;
+        grid-gap: 10px 
+    }
 }
